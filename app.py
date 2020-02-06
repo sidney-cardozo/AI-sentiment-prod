@@ -3,7 +3,7 @@ from sklearn.externals import joblib
 import csv
 
 #app initialization
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
+app = Flask(__name__, template_folder='./templates', static_folder='./static')
 
 # load models
 input_transformer = joblib.load(open(app.static_folder + '/models/input_transformer.pkl', 'rb'))
