@@ -90,4 +90,4 @@ def save_pred():
     return return_text
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5001, host='0.0.0.0')
