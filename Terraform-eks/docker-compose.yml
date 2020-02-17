@@ -1,0 +1,19 @@
+version: '3'
+services:
+  flaskapp:
+    image: card0155/robust_ai:nlpFlask
+    ports:
+      - "5000:5000"
+    networks:
+      - web-network
+  nginx:
+    image: card0155/mynginx:latest
+    ports:
+      - "8080:80"
+    depends_on: 
+      - flaskapp
+    networks:
+      - web-network
+networks:
+  web-network:
+    driver: bridge
