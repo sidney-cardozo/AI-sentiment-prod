@@ -1,4 +1,4 @@
-# AI-sentiment-prod
+# Robust AI
 AI built to scale 
 
 The app folder contains the docker-compose version of this app (https://github.com/hr23232323/nlp_medium_p2), I have dockerised it. This folder can be used to build the docker images that I built incase I have removed the docker images(from Docker hub) and you need to build them again.
