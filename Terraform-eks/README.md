@@ -1,6 +1,6 @@
 # Using Terraform to build the architecture
 
-Use `terraform init` and then `terraform apply` to build your EKS cluster up on amazon
+Use `terraform init` and then `terraform apply` to build your EKS cluster on amazon.
 
 Configure your kubectl to connect with the cluster (config_map_aws_auth and kubeconfig)
 
